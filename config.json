@@ -1,0 +1,7 @@
+{
+
+  "DSN": "root:root@tcp(localhost:3306)/id_alloc_db",
+  
+  "table": "segments",
+  "HttpPort": 8880
+}
