@@ -27,5 +27,5 @@ _testmain.go
 .cache
 
 # ignore vendor packages
-src/app/vendor/*
-!src/app/vendor/vendor.json
+/vendor
+!/vendor/vendor.json
