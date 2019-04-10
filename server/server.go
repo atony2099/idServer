@@ -2,7 +2,7 @@
  * @Author: atony2099
  * @Date: 2019-04-10 02:59:49
  * @Last Modified by: atony2099
- * @Last Modified time: 2019-04-10 12:37:26
+ * @Last Modified time: 2019-04-10 14:05:29
  */
 
 package main
@@ -21,7 +21,7 @@ var (
 )
 
 func initCmd() {
-	flag.StringVar(&configFile, "config", "./config.json", "where config.json is")
+	flag.StringVar(&configFile, "config", "../config.json", "where config.json is")
 	flag.Parse()
 }
 
