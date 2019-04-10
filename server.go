@@ -21,7 +21,7 @@ var (
 )
 
 func initCmd() {
-	flag.StringVar(&configFile, "config", "../config.json", "where config.json is")
+	flag.StringVar(&configFile, "config", "./config.json", "where config.json is")
 	flag.Parse()
 }
 
